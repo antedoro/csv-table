@@ -1,3 +1,14 @@
+[project]
+name = "product-registration-system"
+version = "0.1.0"
+description = "A simple Python script for managing product registrations with CRUD functionality"
+authors = [
+    {name = "V. Antedoro", email = "your.email@example.com"},
+]
+requires-python = ">=3.8"
+license = {text = "MIT"}
+readme = "README.md"
+
 [tool.ruff] 
 line-length = 100
 ignore = ["D203"]

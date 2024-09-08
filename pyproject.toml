@@ -1,0 +1,9 @@
+[tool.ruff] 
+line-length = 100
+ignore = ["D203"]
+show-source = true
+
+[tool.pytest.ini_options] 
+addopts = "-ra --cov"
+testpaths = ["tests"] 
+pythonpath = ['.']
